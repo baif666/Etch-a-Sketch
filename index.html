@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch a Sketch</title>
+        <style>
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                border: 1px solid black;
+            }
+
+            .square {
+                border: 1px solid grey;
+                box-sizing: border-box;
+            }
+
+            .hovered {
+                background-color: lightblue;
+            }
+            .fixed {
+                background-color: rgb(61, 174, 211);
+            }
+        </style>
+    </head>
+
+    <body>
+        <button class="newGridButton" id="newGridButton">Create New Grid</button>
+        <div class="container" id="container"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
